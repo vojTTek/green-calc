@@ -9,6 +9,11 @@ def pros(systemPV):
         prosument=float(0.7)
     else:
         prosument=float(1) 
+def taryfikatory():
+    global taryfikator
+    taryfikator = ('A21', 'A22', 'A23', 'B21', 'B22', 'B23','B11', 'C21', 'C22a', 'C23', 'C11', 'C12a', 'C13', 'G11', 'G12w', 'G13')
+    global taryfikator2
+    taryfikator2 = ('G12', 'G12as', 'C22b', 'C12b')
 print('''
 
                        +================================+
@@ -23,7 +28,8 @@ print('''
             - naukę Pythona rozpocząłem 27.07.2021 roku. 
     Wybierz:
 1. Proste szacowanie instalacji PV.
-2. Wyjście. 
+2. Proste szacowanie instalacji PV.
+   Wybierz inną liczbę aby zakończyć. 
 ''')
 try:
     rozpocznij=int(input())
@@ -33,11 +39,8 @@ except ValueError:
 print(rozpocznij)
 if rozpocznij==1:
     print('Jakiej wielkości instalacja  (kWp) fotowoltaiczna Cię interesuje?') 
-    try:
-        systemPV=float(input())
-    except ValueError:
-        print('popraw dane')
-        systemPV=int(input())
+    
+    
     pros(systemPV)
     print('Podaj średnią stawkę za MWh')
     try:
@@ -69,6 +72,21 @@ if rozpocznij==1:
         - mogą pojawić się dodatkowe koszty, wykonaj szacunek zaawansowany.
         ''')
 elif rozpocznij==2:
-    exit()
+        taryfikatory()                                                                                                                                                                                                                                                                                                                                                                  
+        print('Podaj taryfę. Pamiętaj, że oznaczenie zaczyna się dużą literą')
+        taryfa=str(input())
+        while True:
+            if taryfa in taryfikator:
+                strefa=int(taryfa[2])
+                profil(strefa, 0)
+                break
+            elif taryfa in taryfikator2:
+                strefa=int(taryfa[2])
+                profil(strefa, 1)
+                break
+            else:
+                print('Popraw taryfę.')
+                taryfa=str(input())
+                break
 else:
-    pass
+    exit()
