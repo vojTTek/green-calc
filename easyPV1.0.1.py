@@ -39,8 +39,6 @@ except ValueError:
 print(rozpocznij)
 if rozpocznij==1:
     print('Jakiej wielkości instalacja  (kWp) fotowoltaiczna Cię interesuje?') 
-    
-    
     pros(systemPV)
     print('Podaj średnią stawkę za MWh')
     try:
