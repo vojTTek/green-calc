@@ -17,7 +17,7 @@ system=wielkosc*prosument
 print('mozliwy uzysk:', produkcja, ' MWh' )
 print('Dla prosumenta do wykorzystania zostanie:', system, ' MWh/rok' )
 miesiecznie = [3.05, 4.74, 8.10, 10.57, 14.26, 13.49, 14.14, 12.69, 8.43, 5.26, 2.90, 2.37]
-Kalendarz = ['Styczeń', 'Luty', 'Marzec', 'Kwiecień', 'Maj', 'Czerwiec', 'Lipiec', 'Sierpień', 'Wrzesień', 'Październik', 'Listopad', 'Grudzień']
+Kalendarz = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII']
 wykres=[]
 print(wykres)
 for i in range(len(miesiecznie)):
