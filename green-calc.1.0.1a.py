@@ -33,18 +33,20 @@ while True:
         print('popraw dane')
 if rozpocznij==1:
     print('Jakiej wielkości instalacja  (kWp) fotowoltaiczna Cię interesuje?') 
-    try:
-        systemPV=int(input())
-        break
-    except ValueError:
-        print('popraw dane')
+    while True:
+        try:
+            systemPV=int(input())
+            break
+        except ValueError:
+            print('popraw dane')
     pros(systemPV)
     print('Podaj średnią stawkę za MWh')
-    try:
-        cena=float(input())
-        break
-    except ValueError:
-        print('popraw dane')
+    while True:
+        try:
+            cena=float(input())
+            break
+        except ValueError:
+            print('popraw dane')
     prosty=(systemPV*kWp) 
     ile_paneli=float(systemPV/(panel/1000))
     ile_miejsca=float(ile_paneli*1.7)
