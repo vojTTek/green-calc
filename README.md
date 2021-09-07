@@ -13,4 +13,7 @@ Głównym celem projektu jest wsparcie wyceny instalacji fotowoltaicznej w Polsc
 - od 29 sierpnia 2021 r. pierwsza wersja z GUI (jeszcze zawiera błędy i jest w trakcie testów).
 - od 7 września 2021 r. dodano graficzne przedstawienie produkcji energii
 
-![1 0 2](https://user-images.githubusercontent.com/88628174/131253545-e03bfccc-1299-47e5-8a23-307fdb78bed4.png)
+# podgląd/preview:
+wersja tekstowa aplikacji:
+![101a](https://user-images.githubusercontent.com/88628174/132351842-94b013e0-0bcf-4d0c-80b3-40e393d69523.png)
+
