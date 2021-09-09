@@ -17,7 +17,10 @@ Głównym celem projektu jest wsparcie wyceny instalacji fotowoltaicznej w Polsc
 - 8 września 2021 r. Poprawiono błąd logiczny w obliczeniach
 
 # preview/podgląd:
-wersja tekstowa aplikacji:
-![101a]![Zrzut ekranu 2021-09-9 o 12 41 44](https://user-images.githubusercontent.com/88628174/132671986-5ec5bb57-78b1-4685-a58f-530ab1b00e53.png)
+text based/wersja tekstowa aplikacji:
+![102a]![Zrzut ekranu 2021-09-9 o 12 41 44](https://user-images.githubusercontent.com/88628174/132671986-5ec5bb57-78b1-4685-a58f-530ab1b00e53.png)
+GUI:
+![Zrzut ekranu 2021-09-9 o 13 10 43](https://user-images.githubusercontent.com/88628174/132675740-9f747c73-6fb3-4eb5-b809-76f9f799bab7.png)
+
 
 
