@@ -18,5 +18,6 @@ Głównym celem projektu jest wsparcie wyceny instalacji fotowoltaicznej w Polsc
 
 # preview/podgląd:
 wersja tekstowa aplikacji:
-![101a](https://user-images.githubusercontent.com/88628174/132351842-94b013e0-0bcf-4d0c-80b3-40e393d69523.png)
+![101a]![Zrzut ekranu 2021-09-9 o 12 41 44](https://user-images.githubusercontent.com/88628174/132671986-5ec5bb57-78b1-4685-a58f-530ab1b00e53.png)
+
 
